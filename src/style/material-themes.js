@@ -10,7 +10,7 @@ const h2 = { fontFamily: 'Roboto sans-serif', fontWeight: 400, fontSize: '20px',
 const h3 = { fontFamily: 'Roboto sans-serif', fontWeight: 400, fontSize: '17px', lineHeight: '20px' };
 const h4 = { fontFamily: 'Roboto sans-serif', fontWeight: 400, fontSize: '14px', lineHeight: '20px' };
 
-export const mainTheme = createTheme({
+const obj = {
 	palette: {
 		primary
 	},
@@ -28,4 +28,6 @@ export const mainTheme = createTheme({
 		h3,
 		h4
 	}
-});
+};
+
+export const mainTheme = createTheme(obj);
